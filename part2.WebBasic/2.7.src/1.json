@@ -1,0 +1,22 @@
+{
+  "name": "John Doe",
+  "age": 30,
+  "isStudent": false,
+  "courses": ["JavaScript", "Node.js", "React"],
+  "address": {
+    "street": "123 Main St",
+    "city": "Boston",
+    "zipCode": "02110"
+  },
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "555-1234"
+    },
+    {
+      "type": "work",
+      "number": "555-5678"
+    }
+  ],
+  "spouse": null
+}

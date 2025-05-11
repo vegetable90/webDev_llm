@@ -1,0 +1,43 @@
+# Guestbook Application PRD
+
+## Overview
+A simple guestbook application built with Node.js that allows visitors to leave messages and view messages from others.
+
+## Core Features
+1. Message Creation
+   - Users can write and submit messages
+   - Required fields: name, message content
+   - Optional fields: email
+   - Timestamp should be automatically recorded
+
+2. Message Display
+   - Display all messages in reverse chronological order
+   - Show name, message content, and timestamp
+   - Paginate messages (10 per page)
+
+3. Basic Administration
+   - Simple admin interface to delete inappropriate messages
+   - Basic authentication for admin access
+
+## Technical Requirements
+- Backend: Node.js with Express.js
+- Database: SQLite for simplicity
+- Frontend: Simple HTML/CSS with EJS templating
+- No complex client-side JavaScript required
+
+## Security Requirements
+- Input validation and sanitization
+- Protection against XSS attacks
+- Basic admin authentication
+- Rate limiting for message submission
+
+## Performance Requirements
+- Page load time under 2 seconds
+- Support for multiple concurrent users
+- Efficient database queries
+
+## Future Considerations
+- Message editing
+- User registration
+- Rich text formatting
+- Image attachments
