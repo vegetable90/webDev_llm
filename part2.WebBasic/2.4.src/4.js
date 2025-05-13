@@ -11,7 +11,7 @@ if (score >= 90) {
 
 // 삼항 연산자
 let result = score >= 60 ? "합격" : "불합격";
-
+console.log(result)
 // switch문
 let day = 3;
 switch(day) {

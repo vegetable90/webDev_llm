@@ -65,15 +65,16 @@ WebDev With LLM - 웹 개발과 LLM을 결합한 학습 코스
 * 다양한 LLM 기반 개발 환경 및 도구 활용
 * 로컬 환경에서 LLM 모델 구동 및 테스트
 * 개발 생산성 향상을 위한 AI 도구 활용법
-* GitHub Copilot, ChatGPT Code Interpreter 활용
+* GitHub Copilot, Cursor, LM Studio 등 최신 도구 활용
 
-* [4.1. AI 개발 도구 소개](./part4.LlmAgent/4.1.AI_Dev_Tools_Intro.md)
-* [4.2. Cursor 활용 가이드](./part4.LlmAgent/4.2.Cursor_Guide.md)
-* [4.3. LM Studio 설치와 로컬 모델 실행](./part4.LlmAgent/4.3.LmStudio_Local_Models.md)
-* [4.4. GitHub Copilot 고급 기능](./part4.LlmAgent/4.4.GitHub_Copilot_Advanced.md)
-* [4.5. Obsidian과 AI 통합](./part4.LlmAgent/4.5.Obsidian_AI_Integration.md)
-* [4.6. 코드 생성 및 디버깅에 AI 활용](./part4.LlmAgent/4.6.AI_Code_Generation_Debugging.md)
-* [4.7. 미래 전망 및 추가 학습 자료](./part4.LlmAgent/4.7.Future_Additional_Resources.md)
+* [4.1. MCP 개요 및 실습](./part4.LlmAgent/4.1.MCP_Overview_and_Practice.md)
+* [4.2. Cursor 실습](./part4.LlmAgent/4.2.Cursor_Practice.md)
+* [4.3. LM Studio 설치 및 테스트](./part4.LlmAgent/4.3.LmStudio_Install_and_Test.md)
+* [4.4. Cline 실습](./part4.LlmAgent/4.4.Cline_Practice.md)
+* [4.5. Obsidian의 활용](./part4.LlmAgent/4.5.Why_Obsidian.md)
+* [4.6. LLM을 활용한 Docker 쉽게 사용하기](./part4.LlmAgent/4.6.Docker_easy_with_LLM.md)
+* [4.7. Taskmaster.ai 활용](./part4.LlmAgent/4.7.taskmaster.ai.md)
+* [4.8. 기타 도구 및 리소스](./part4.LlmAgent/4.8.Etc.md)
 
 ## 파일 구조
 
@@ -99,10 +100,11 @@ WebDev With LLM - 웹 개발과 LLM을 결합한 학습 코스
 * **백엔드**: Node.js, Express.js
 * **AI/LLM**: OpenAI ChatGPT API, OpenAI Assistants API
 * **개발 도구**: 
-  - **AI 코딩 도구**: GitHub Copilot, Cursor
+  - **AI 코딩 도구**: GitHub Copilot, Cursor, Cline
   - **로컬 LLM**: LM Studio, Ollama
-  - **생산성 도구**: Obsidian, VS Code
+  - **생산성 도구**: Obsidian, VS Code, Taskmaster.ai
   - **버전 관리**: Git, GitHub
+  - **컨테이너화**: Docker
 
 ## 학습 효과
 

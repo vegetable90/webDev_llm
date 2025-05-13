@@ -1,12 +1,12 @@
 // 파일명: append-file.js
 const fs = require('fs');
-const notesFile = '2.4.8.notes.txt';
+const notesFile = '8.notes.txt';
 
 // 명령행 인자 가져오기
 const args = process.argv.slice(2);
 const command = args[0];
 
-// 2.4.8.notes.txt 파일이 없으면 빈 파일 생성
+// 8.notes.txt 파일이 없으면 빈 파일 생성
 if (!fs.existsSync(notesFile)) {
   fs.writeFileSync(notesFile, '', 'utf8');
   console.log(`${notesFile} 파일이 생성되었습니다.`);
@@ -16,7 +16,7 @@ if (!fs.existsSync(notesFile)) {
 function handleCommand() {
   switch (command) {
     case 'add':
-      // 메모 추가: node 2.4.8.notes.js add "새 메모 내용"
+      // 메모 추가: node 8.notes.js add "새 메모 내용"
       if (args[1]) {
         addNote(args[1]);
       } else {
@@ -25,12 +25,12 @@ function handleCommand() {
       break;
     
     case 'list':
-      // 메모 목록 조회: node 2.4.8.notes.js list
+      // 메모 목록 조회: node 8.notes.js list
       listNotes();
       break;
     
     case 'clear':
-      // 모든 메모 삭제: node 2.4.8.notes.js clear
+      // 모든 메모 삭제: node 8.notes.js clear
       clearNotes();
       break;
     
@@ -87,9 +87,9 @@ function clearNotes() {
 function showHelp() {
   console.log(`
 사용법:
-  node 2.4.8.notes.js add "메모 내용"  - 새 메모 추가
-  node 2.4.8.notes.js list            - 모든 메모 조회
-  node 2.4.8.notes.js clear           - 모든 메모 삭제
+  node 8.notes.js add "메모 내용"  - 새 메모 추가
+  node 8.notes.js list            - 모든 메모 조회
+  node 8.notes.js clear           - 모든 메모 삭제
   `);
 }
 
