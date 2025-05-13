@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "홍길동",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "김철수",
+      "active": false
+    },
+    {
+      "id": 3,
+      "name": "이영희",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "박민수",
+      "active": true
+    }
+  ],
+  "company": "ABC Corp",
+  "version": "1.0.0",
+  "lastUpdated": "2025-05-13T06:17:25.348Z"
+}
