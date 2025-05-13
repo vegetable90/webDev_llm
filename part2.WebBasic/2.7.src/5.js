@@ -11,7 +11,7 @@ try {
 }
 
 // 비동기적으로 JSON 파일 읽기
-fs.readFile('data.json', 'utf8', (err, rawData) => {
+fs.readFile('5.data.json', 'utf8', (err, rawData) => {
   if (err) {
     console.error('파일 읽기 오류:', err.message);
     return;
